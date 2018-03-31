@@ -1,0 +1,13 @@
+#blue {
+	color: blue;
+}
+#green {
+	color: green;
+}
+
+.bo-b {
+	border: 1px solid blue;
+}
+.bo-g {
+	border: 1px solid green;
+}
