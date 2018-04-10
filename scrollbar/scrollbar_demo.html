@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>jQuery custom scrollbar demo</title>
+
+	<link rel="stylesheet" href="jquery.mCustomScrollbar.css">
+	
+	<!-- demo CSS -->
+	<style>
+		table { width: 500px; }
+		
+		table thead tr, table tbody tr{
+			display: table;
+			width: 100%;
+			table-layout: fixed;
+		}
+		table tbody {
+			display: block;
+			height: 100px;
+			overflow-y: scroll;
+			color: #FFF;
+			background-color: #333;
+			text-align: center;
+		}
+	</style>
+	
+</head>
+
+<body>
+	
+			<table>
+				<thead>
+					<tr>
+						<th>序号</th>
+						<th>name</th>
+						<th>age</th>
+					</tr>
+				</thead>
+				<tbody class="mCustomScrollbar" data-mcs-theme="minimal">
+					<tr>
+						<td>1</td>
+						<td>name1</td>
+						<td>11</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>name1</td>
+						<td>11</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>name1</td>
+						<td>11</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>name1</td>
+						<td>11</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>name1</td>
+						<td>11</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>name1</td>
+						<td>11</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>name1</td>
+						<td>11</td>
+					</tr>
+				</tbody>
+			</table>
+		
+	
+	<!-- Google CDN jQuery with fallback to local -->
+	<script src="jquery-1.11.0.min.js"></script>
+	
+	<!-- custom scrollbar plugin -->
+	<script src="jquery.mCustomScrollbar.concat.min.js"></script>
+	
+	<!-- <script>
+		(function($){
+			$(window).on("load",function(){
+				
+				$("body").mCustomScrollbar({
+					theme:"minimal"
+				});
+				
+			});
+		})(jQuery);
+	</script> -->
+</body>
+</html>
